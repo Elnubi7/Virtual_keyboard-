@@ -57,6 +57,7 @@ You point your **index finger** at a key, and "click" it by bringing your **midd
 ---
 
 ## 🛠️ Installation & Run
+pip install -r requirements.txt
 
 ### 1. Clone the repo
 
