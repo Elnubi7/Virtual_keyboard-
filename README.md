@@ -2,7 +2,8 @@
 
 # ✋ Virtual Hand Keyboard
 
-Control your keyboard using only hand gestures — no physical touch needed!
+Type using hand gestures — no physical keyboard needed!  
+Built with Python, OpenCV, and cvzone for a seamless touchless typing experience.
 
 <img src="https://skillicons.dev/icons?i=python,numpy,opencv,git,github" alt="tech stack" />
 
@@ -12,19 +13,18 @@ Control your keyboard using only hand gestures — no physical touch needed!
 
 ## 📌 Overview
 
-This project simulates a **virtual keyboard** where you can type by pointing your finger in the air and making a "click" gesture with your hand.
-
-Built using **Python**, **OpenCV**, and **cvzone**, it allows real-time hand tracking and keypress simulation using only your webcam.
+**Virtual Hand Keyboard** is a gesture-controlled keyboard powered by your webcam.  
+You can type letters by pointing at virtual keys using your index finger and "click" by pinching (index + middle finger).
 
 ---
 
-## ⚙️ How It Works
+## 🎯 How It Works
 
-- Uses your webcam to detect your hand in real-time.
-- Tracks your index finger to detect which key you're pointing at.
-- When you pinch your index and middle fingers → it triggers a key press.
-- The key is typed using `pynput`, and the typed text appears on screen.
-- The `<` key works as a backspace/delete.
+- 📷 Uses your **webcam** to detect hand in real-time
+- ✋ Tracks **index finger** to detect which key you're pointing at
+- 👌 When **index + middle finger pinch** → triggers key press
+- 💬 Simulates actual typing using `pynput`
+- 🔙 Special key `<` works as backspace
 
 ---
 
@@ -34,16 +34,29 @@ Built using **Python**, **OpenCV**, and **cvzone**, it allows real-time hand tra
   <img src="https://skillicons.dev/icons?i=python,numpy,opencv,git,github" alt="tech stack" />
 </p>
 
-| Library     | Purpose                             |
-|-------------|-------------------------------------|
-| `cvzone`    | Hand tracking (based on MediaPipe)  |
-| `opencv`    | Drawing and video processing        |
-| `numpy`     | Coordinate math and distances       |
-| `pynput`    | Simulate keyboard input             |
+| Library     | Purpose                                 |
+|-------------|------------------------------------------|
+| `cvzone`    | Hand tracking (built on MediaPipe)       |
+| `opencv`    | Video capture and visual UI              |
+| `numpy`     | Coordinate & distance calculations       |
+| `pynput`    | Simulate key presses                     |
+| `python`    | Core programming language                |
 
 ---
 
 ## 🎥 Demo Video
 
-📹 Check out the demo of me using the virtual keyboard:  
-**(You can upload your video as `assets/demo_video.mp4` or paste a YouTube link below)**
+Watch the virtual keyboard in action:  
+▶️ [Click to view the demo video](./assets/demo_video.MOV)
+
+> Or open it manually: `assets/demo_video.MOV`
+
+---
+
+## 🛠️ Installation & Run
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Virtual-Hand-Keyboard.git
+cd Virtual-Hand-Keyboard
