@@ -20,11 +20,11 @@ You can type letters by pointing at virtual keys using your index finger and "cl
 
 ## 🎯 How It Works
 
-- 📷 Uses your **webcam** to detect hand in real-time
-- ✋ Tracks **index finger** to detect which key you're pointing at
-- 👌 When **index + middle finger pinch** → triggers key press
-- 💬 Simulates actual typing using `pynput`
-- 🔙 Special key `<` works as backspace
+- 📷 Uses your **webcam** to detect hand in real-time  
+- ✋ Tracks **index finger** to detect which key you're pointing at  
+- 👌 When **index + middle finger pinch** → triggers key press  
+- 💬 Simulates actual typing using `pynput`  
+- 🔙 Special key `<` works as backspace  
 
 ---
 
@@ -46,10 +46,10 @@ You can type letters by pointing at virtual keys using your index finger and "cl
 
 ## 🎥 Demo Video
 
-Watch the virtual keyboard in action:  
-▶️ [Click to view the demo video](./assets/demo_video.MOV)
-
-> Or open it manually: `assets/demo_video.MOV`
+<video width="100%" controls>
+  <source src="assets/demo_video.MOV" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
