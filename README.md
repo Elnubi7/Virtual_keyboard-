@@ -48,11 +48,11 @@ You point your **index finger** at a key, and "click" it by bringing your **midd
 ## 🎥 Demo Video
 
 <video width="100%" controls>
-  <source src="assets/demo_video.mp4" type="video/mp4">
+  <source src="assets/demo_video.MP4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-> 🎬 File path: `assets/demo_video.mp4` (Make sure it's uploaded to the repo)
+> 🎬 File path: `assets/demo_video.MP4` (Make sure it's uploaded to the repo)
 
 ---
 
