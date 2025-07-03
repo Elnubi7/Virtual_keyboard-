@@ -4,7 +4,7 @@
 
 Type in the air using your fingers — a fully touchless virtual keyboard using AI & Computer Vision!
 
-<img src="https://skillicons.dev/icons?i=python,numpy,opencv,git,github" alt="tech stack" />
+<img src="https://skillicons.dev/icons?i=python,opencv,github" alt="tech stack" />
 
 </div>
 
