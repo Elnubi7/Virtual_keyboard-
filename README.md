@@ -2,8 +2,7 @@
 
 # ✋ Virtual Hand Keyboard
 
-Type using hand gestures — no physical keyboard needed!  
-Built with Python, OpenCV, and cvzone for a seamless touchless typing experience.
+Type in the air using your fingers — a fully touchless virtual keyboard using AI & Computer Vision!
 
 <img src="https://skillicons.dev/icons?i=python,numpy,opencv,git,github" alt="tech stack" />
 
@@ -13,18 +12,20 @@ Built with Python, OpenCV, and cvzone for a seamless touchless typing experience
 
 ## 📌 Overview
 
-**Virtual Hand Keyboard** is a gesture-controlled keyboard powered by your webcam.  
-You can type letters by pointing at virtual keys using your index finger and "click" by pinching (index + middle finger).
+This project allows users to simulate typing on a virtual keyboard using **hand gestures** tracked by their **webcam**.
+
+You point your **index finger** at a key, and "click" it by bringing your **middle finger close** — all without touching a real keyboard.
 
 ---
 
 ## 🎯 How It Works
 
-- 📷 Uses your **webcam** to detect hand in real-time  
-- ✋ Tracks **index finger** to detect which key you're pointing at  
-- 👌 When **index + middle finger pinch** → triggers key press  
-- 💬 Simulates actual typing using `pynput`  
-- 🔙 Special key `<` works as backspace  
+- 🖐 Detects your hand using `cvzone` (MediaPipe under the hood)
+- 👆 Tracks the tip of your index finger to know where you're pointing
+- 👌 Detects a click when index and middle fingertips are close
+- ⌨️ Displays a virtual keyboard and types using `pynput`
+- 🧠 Shows real-time typed text on screen
+- 🔙 Supports Backspace with `<` button
 
 ---
 
@@ -34,22 +35,24 @@ You can type letters by pointing at virtual keys using your index finger and "cl
   <img src="https://skillicons.dev/icons?i=python,numpy,opencv,git,github" alt="tech stack" />
 </p>
 
-| Library     | Purpose                                 |
-|-------------|------------------------------------------|
-| `cvzone`    | Hand tracking (built on MediaPipe)       |
-| `opencv`    | Video capture and visual UI              |
-| `numpy`     | Coordinate & distance calculations       |
-| `pynput`    | Simulate key presses                     |
-| `python`    | Core programming language                |
+| Library     | Role                                          |
+|-------------|-----------------------------------------------|
+| `cvzone`    | Hand tracking, bounding boxes, utility tools  |
+| `opencv`    | Webcam access, image drawing, flipping        |
+| `numpy`     | Coordinate math and array handling            |
+| `pynput`    | Simulates keyboard key presses                |
+| `python`    | Main programming language                     |
 
 ---
 
 ## 🎥 Demo Video
 
 <video width="100%" controls>
-  <source src="assets/demo_video.MOV" type="video/quicktime">
+  <source src="assets/demo_video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+> 🎬 File path: `assets/demo_video.mp4` (Make sure it's uploaded to the repo)
 
 ---
 
