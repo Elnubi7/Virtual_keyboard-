@@ -1,37 +1,49 @@
 <div align="center">
 
-# ✋ Virtual Hand-Controlled Keyboard
-📷 Type using your fingers in the air with real-time computer vision ✨
+# ✋ Virtual Hand Keyboard
 
-![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXRlZDRwMnU2Y3k3bmQ0c3Flc3phcXY3a3g0d3B0cG01Z3V3bDIwZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Hw0wIr1YL75VC/giphy.gif)
+Control your keyboard using only hand gestures — no physical touch needed!
+
+<img src="https://skillicons.dev/icons?i=python,numpy,opencv,git,github" alt="tech stack" />
 
 </div>
 
 ---
 
-## 📌 Description
+## 📌 Overview
 
-A virtual keyboard that allows typing by simply pointing and pinching your fingers in front of a webcam.  
-Built using **OpenCV**, **cvzone**, and **pynput**, this project turns your hand into a futuristic input device.
+This project simulates a **virtual keyboard** where you can type by pointing your finger in the air and making a "click" gesture with your hand.
 
----
-
-## 🧠 Technologies Used
-
-![Tech Stack](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*vWGAWUMxzXoewIXzUqzD3w.png)
-
-| Library       | Purpose                                 |
-|---------------|------------------------------------------|
-| `OpenCV`      | Image Processing                         |
-| `cvzone`      | Hand Detection, UI helpers               |
-| `pynput`      | Keyboard simulation                      |
-| `numpy`       | Array Operations                         |
+Built using **Python**, **OpenCV**, and **cvzone**, it allows real-time hand tracking and keypress simulation using only your webcam.
 
 ---
 
-## 🎥 Demo
+## ⚙️ How It Works
 
-Upload your demo video to YouTube or place it locally in `assets/demo_video.mp4`, then embed it like this:
+- Uses your webcam to detect your hand in real-time.
+- Tracks your index finger to detect which key you're pointing at.
+- When you pinch your index and middle fingers → it triggers a key press.
+- The key is typed using `pynput`, and the typed text appears on screen.
+- The `<` key works as a backspace/delete.
 
-```markdown
-[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+---
+
+## 🧠 Tech Stack & Libraries
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,numpy,opencv,git,github" alt="tech stack" />
+</p>
+
+| Library     | Purpose                             |
+|-------------|-------------------------------------|
+| `cvzone`    | Hand tracking (based on MediaPipe)  |
+| `opencv`    | Drawing and video processing        |
+| `numpy`     | Coordinate math and distances       |
+| `pynput`    | Simulate keyboard input             |
+
+---
+
+## 🎥 Demo Video
+
+📹 Check out the demo of me using the virtual keyboard:  
+**(You can upload your video as `assets/demo_video.mp4` or paste a YouTube link below)**
