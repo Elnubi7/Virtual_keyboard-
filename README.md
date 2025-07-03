@@ -32,7 +32,7 @@ You point your **index finger** at a key, and "click" it by bringing your **midd
 ## 🧠 Tech Stack & Libraries
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,numpy,opencv,git,github" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=python,opencv,github" alt="tech stack" />
 </p>
 
 | Library     | Role                                          |
